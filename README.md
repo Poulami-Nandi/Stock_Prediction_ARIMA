@@ -29,11 +29,11 @@ pip install -r requirements.txt
 ## Usage
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/your-username/tesla-stock-prediction-arima.git
-cd tesla-stock-prediction-arima
+git clone https://github.com/Poulami-Nandi/Stock_Prediction_ARIMA.git
+cd Stock_Prediction_ARIMA
 ```
 2. **Download and Preprocess Data:**
-In the notebook data_preprocessing.ipynb, we download the historical stock data of Tesla for the last 5 years and clean the data by handling missing values and formatting the columns.
+In the StockPrediction_ARIMA.ipynb, we download the historical stock data of Tesla for the last 5 years and clean the data by handling missing values and formatting the columns.
 
 3. **Train the ARIMA Model:**
 In train_arima_model.py, we train the ARIMA model on the stock data. The script downloads the data, processes it, and trains the ARIMA model to make predictions.
@@ -60,18 +60,18 @@ jupyter notebook visualization.ipynb
 
 ## Directory Structure
 ```bash
-tesla-stock-prediction-arima/
+Stock_Prediction_ARIMA/
 │
 ├── data/                         # Contains raw and processed data
-│   ├── tesla_stock_data.csv      # Raw data of Tesla stock (from Yahoo Finance)
+│   ├── tesla_stock_data_5y.csv   # Raw data of Tesla stock (from Yahoo Finance) for last 5 years
+│   ├── tesla_stock_data_6m.csv   # Raw data of Tesla stock (from Yahoo Finance) for last 6 months
 │
-├── notebooks/                    # Jupyter notebooks for analysis and visualization
-│   ├── data_preprocessing.ipynb  # Data preprocessing and cleaning
-│   ├── visualization.ipynb       # Visualizations of predicted and actual stock prices
+├── notebooks/                       # Jupyter notebooks for analysis and visualization
+│   ├── StockPrediction_ARIMA.ipynb  # Data preprocessing and cleaning
+│   ├── visualization.ipynb          # Visualizations of predicted and actual stock prices
 │
-├── scripts/                      # Python scripts for model training and prediction
-│   ├── train_arima_model.py      # Script to train ARIMA model
-│   ├── predict_stock_price.py    # Script for making stock price predictions
+├── scripts/                          # Python scripts for model training and prediction
+│   ├── StockPrediction_ARIMA.py      # Script to train ARIMA model
 │
 ├── requirements.txt              # List of required Python packages
 ├── README.md                     # Project overview and instructions
