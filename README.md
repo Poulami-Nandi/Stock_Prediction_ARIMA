@@ -49,14 +49,14 @@ python predict_stock_price.py
 
 5. **Visualize the Results:**
 The notebook visualization.ipynb provides various visualizations:
-* Actual vs Predicted: Comparing the actual stock price with the predicted values from ARIMA.
-* Forecasting: Plotting the forecasted stock prices for the next week.
+* **Actual vs Predicted:** Comparing the actual stock price with the predicted values from ARIMA.
+* **Forecasting:** Plotting the forecasted stock prices for the next week.
 ```bash
 jupyter notebook visualization.ipynb
 ```
 ## Example Output
-* Predicted vs Actual Stock Prices: A plot showing how well the ARIMA model predicted Tesla's stock price.
-* Stock Price Forecast: Forecast of Tesla's stock price for the upcoming week.
+* **Predicted vs Actual Stock Prices:** A plot showing how well the ARIMA model predicted Tesla's stock price.
+* **Stock Price Forecast:** Forecast of Tesla's stock price for the upcoming week.
 
 ## Directory Structure
 ```bash
