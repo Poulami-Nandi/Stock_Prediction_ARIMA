@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+yfinance
+sklearn
+statsmodels
+tensorflow
+pytorch
+mplfinance
