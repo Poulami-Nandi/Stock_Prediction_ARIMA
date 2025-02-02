@@ -65,6 +65,7 @@ Stock_Prediction_ARIMA/
 ├── data/                         # Contains raw and processed data
 │   ├── tesla_stock_data_5y.csv   # Raw data of Tesla stock (from Yahoo Finance) for last 5 years
 │   ├── tesla_stock_data_6m.csv   # Raw data of Tesla stock (from Yahoo Finance) for last 6 months
+|   ├── tesla_next_week_pred.csv  # Prediction for next week
 │
 ├── notebooks/                       # Jupyter notebooks for analysis and visualization
 │   ├── StockPrediction_ARIMA.ipynb  # Data preprocessing and cleaning
